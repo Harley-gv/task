@@ -1,6 +1,6 @@
 const express = require('express')
 const { AppError } = require('./utils/appError.util')
-const { globalErrorHandler } = require('./controllers/globalErrorHandle.controllers')
+const { globalErrorHandler } = require('./controllers/globalErrorHandler.controller')
 
 //models
 const { User } = require('./models/user.model')
