@@ -1,7 +1,7 @@
 const { app } = require('./app');
 const { db } = require('./utils/db.util');
 
-const port = '4000'
+const port = '5000'
 
 db.authenticate()
   .then(() => console.log('db authenticate'))
